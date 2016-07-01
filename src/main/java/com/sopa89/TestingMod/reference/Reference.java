@@ -1,4 +1,4 @@
-package main.java.com.sopa89.TestingMod.reference;
+package com.sopa89.TestingMod.reference;
 
 public class Reference
 {

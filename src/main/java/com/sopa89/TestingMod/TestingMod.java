@@ -1,6 +1,6 @@
-package main.java.com.sopa89.TestingMod;
+package com.sopa89.TestingMod;
 
-import main.java.com.sopa89.TestingMod.reference.Reference;
+import com.sopa89.TestingMod.reference.Reference;
 
 import net.minecraftforge.fml.common.Mod;
 
