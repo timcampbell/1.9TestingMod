@@ -1,4 +1,4 @@
-package com.sopa89.testingmod.item;
+package com.sopa89.testingmod.item.base;
 
 import com.sopa89.testingmod.creativeTab.CreativeTabTM;
 import com.sopa89.testingmod.reference.Reference;
