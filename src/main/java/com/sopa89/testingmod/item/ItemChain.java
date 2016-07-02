@@ -1,5 +1,6 @@
 package com.sopa89.testingmod.item;
 
+import com.sopa89.testingmod.item.base.ItemTM;
 import com.sopa89.testingmod.reference.Names;
 
 public class ItemChain extends ItemTM
