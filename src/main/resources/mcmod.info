@@ -1,6 +1,6 @@
 [
 {
-    "modid": "TestingMod",
+    "modid": "testingmod",
     "name": "Testing Mod",
     "description": "1.9 Mod to mess around with things",
     "version": "1.0",
