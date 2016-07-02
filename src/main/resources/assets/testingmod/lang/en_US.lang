@@ -1,0 +1,5 @@
+# Items
+item.testingmod:chain.name=Iron Chain
+
+# Creative Tabs
+itemGroup.testingmod=Testing Mod
