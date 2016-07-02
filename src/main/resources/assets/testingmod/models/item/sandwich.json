@@ -1,0 +1,6 @@
+{
+   "parent": "testingmod:item/_standard_item",
+   "textures": { 
+       "layer0": "testingmod:items/sandwich"
+   }
+}
