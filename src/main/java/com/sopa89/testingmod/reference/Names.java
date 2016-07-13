@@ -6,5 +6,6 @@ public class Names
 	{
 		public static final String CHAIN="chain";
 		public static final String SANDWICH="sandwich";
+		public static final String GOLD_TAG="goldTag";
 	}
 }

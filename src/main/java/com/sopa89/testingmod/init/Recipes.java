@@ -20,5 +20,9 @@ public class Recipes
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Items.CHAINMAIL_HELMET), "ccc", "c c", 'c', "chainIron"));
 		
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.sandwich), "meatCooked", "bread"));
+		
+		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.NAME_TAG), "chainIron", "tagGold"));
+		
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.goldTag), "ggg", 'g', "ingotGold"));
 	}
 }

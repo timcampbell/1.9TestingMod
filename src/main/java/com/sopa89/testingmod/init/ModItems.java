@@ -1,9 +1,8 @@
 package com.sopa89.testingmod.init;
 
-import java.util.ArrayList;
-
 import com.sopa89.testingmod.item.ItemChain;
 import com.sopa89.testingmod.item.ItemFoodSandwich;
+import com.sopa89.testingmod.item.ItemGoldTag;
 import com.sopa89.testingmod.item.base.ItemFoodTM;
 import com.sopa89.testingmod.item.base.ItemTM;
 import com.sopa89.testingmod.reference.Names;
@@ -11,7 +10,6 @@ import com.sopa89.testingmod.reference.Reference;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -24,12 +22,17 @@ public class ModItems
 {
 	
 	public static final ItemTM chain=new ItemChain();
+	public static final ItemTM goldTag=new ItemGoldTag();
+	
 	public static final ItemFoodTM sandwich=new ItemFoodSandwich();
+	
 	
 	public static void init()
 	{
 		GameRegistry.register(chain, new ResourceLocation(Reference.MOD_PREFIX+Names.Items.CHAIN));
 		GameRegistry.register(sandwich, new ResourceLocation(Reference.MOD_PREFIX+Names.Items.SANDWICH));
+		GameRegistry.register(goldTag, new ResourceLocation(Reference.MOD_PREFIX+Names.Items.GOLD_TAG));
+		
 		
 		OreDictionary.registerOre("chainIron", new ItemStack(chain));
 		
@@ -45,12 +48,15 @@ public class ModItems
 		
 		OreDictionary.registerOre("barIron", Blocks.IRON_BARS);
 		
+		OreDictionary.registerOre("tagGold", new ItemStack(goldTag));
+		
 	}	
 	
 	public static void reg()
 	{
 		regHelper(Reference.MOD_PREFIX+Names.Items.CHAIN, chain);
 		regHelper(Reference.MOD_PREFIX+Names.Items.SANDWICH, sandwich);
+		regHelper(Reference.MOD_PREFIX+Names.Items.GOLD_TAG, goldTag);
 	}
 	
 	private static void regHelper(String name, Item item)

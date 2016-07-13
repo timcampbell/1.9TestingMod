@@ -1,6 +1,7 @@
 # Items
 item.testingmod:chain.name=Iron Chain
 item.testingmod:sandwich.name=Meat Sandwich
+item.testingmod:goldTag.name=Gold Tag
 
 # Creative Tabs
 itemGroup.testingmod=Testing Mod
